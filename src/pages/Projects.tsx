@@ -17,7 +17,7 @@ const projects: Project[] = [
     description:
       "A full-stack automation platform where users can visually design workflows using a drag-and-drop node editor and persist them through a REST API.",
     tech: "React, React Flow, JavaScript, Python/Flask, REST APIs",
-    demo: "#",
+    demo: "https://workflow-automation-builder-lake.vercel.app/",
     github: "https://github.com/DCM-Star/Workflow-Automation-Builder",
     preview: "/workflow-preview.png",
     gif: "/WorkFlow.gif",
@@ -27,8 +27,8 @@ const projects: Project[] = [
     description:
       "My personal portfolio website built to showcase projects that you are currently using.",
     tech: "React, Tailwind, TypeScript",
-    demo: "#",
-    github: "https://github.com/DCM-Star",
+    demo: "https://dcm-star-portfolio.vercel.app",
+    github: "https://github.com/DCM-Star/React-Portfolio-Website-",
     preview: "/portfolio-preview.png",
     gif: "/portfolio.gif",
   },
