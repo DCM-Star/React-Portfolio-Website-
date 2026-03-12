@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, built to showcase my projects, skills, and technical expertise using modern frontend technologies including React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project Showcase: Highlights personal and professional projects with detailed descriptions and links to live demos and GitHub repositories.
 
-## React Compiler
+Responsive Design: Fully responsive layout optimized for desktop, tablet, and mobile devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clean, Modern UI: Built with Tailwind CSS to ensure a sleek, maintainable, and visually appealing interface.
 
-## Expanding the ESLint configuration
+Type-Safe Code: Leveraging TypeScript to improve code reliability and maintainability.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Interactive Components: Demonstrates knowledge of React component architecture, state management, and dynamic rendering.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Purpose
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This website serves as a central hub to demonstrate my frontend development skills and portfolio projects to potential employers or collaborators. It emphasizes code quality, responsiveness, and modern web development best practices.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Technologies Used
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+React – Component-driven architecture for building dynamic UI.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+TypeScript – Type-safe JavaScript for scalable, maintainable code.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Tailwind CSS – Utility-first CSS framework for rapid styling and responsive design.
+
+Vite – Fast development build tool for React applications.
+
+Lessons Learned
+
+Building this portfolio website provided valuable professional experience, including:
+
+Designing Reusable React Components: Developed scalable, modular components that can be reused across multiple projects, improving maintainability.
+
+Applying TypeScript Effectively: Leveraged type safety to catch errors early, ensuring robust and predictable code.
+
+Building Responsive & Accessible Interfaces: Gained hands-on experience creating user interfaces that adapt seamlessly across devices and follow accessibility best practices.
+
+Managing Project Workflow: Learned to plan, prioritize, and iterate on features to deliver a polished product efficiently.
+
+Version Control & Deployment: Strengthened skills in using Git/GitHub for collaboration, tracking changes, and deploying production-ready applications.
+Getting Started
+
+To run this project locally:
+git clone <your-repo-url>
+cd portfolio-website
+npm install
+npm run dev
+
+Open your browser and navigate to http://localhost:5173 to see the website in action.
+
+License
+
+This project is open-source and available under the MIT License
