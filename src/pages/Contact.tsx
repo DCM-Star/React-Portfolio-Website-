@@ -24,7 +24,7 @@ export default function Contact() {
 
           {/* Resume Preview */}
           <img
-            src="/Danny_Resume.png"
+            src="/Danny_Resume1.png"
             alt="Danny Miguel Resume"
             className="w-full rounded-lg border border-slate-700 shadow-lg hover:scale-[1.01] transition mb-6"
           />
@@ -33,7 +33,7 @@ export default function Contact() {
           <div className="flex gap-4">
 
             <a
-              href="/Danny_Resume.pdf"
+              href="/Danny_Resume1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white font-semibold px-5 py-2 rounded-lg transition"
